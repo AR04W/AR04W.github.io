@@ -7,13 +7,25 @@
     flex-wrap: nowrap;
 }
 
+
 img {
     width: 100%;
+    border-radius: 10px;
 }
 
-.char {
+a.char {
     width: 200px;
     margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.5s, width 0.5s;
+}
+
+a.char:hover {
+    background-color: grey;
+    width: 250px;
+    transition: background-color 0.5s, width 0.5s;
 }
 
 h2 {
